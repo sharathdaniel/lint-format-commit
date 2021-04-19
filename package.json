@@ -5,7 +5,8 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "check": "prettier --check '*.html'"
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -17,10 +18,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo \"[Husky] pre-commit\""
     }
-  },
-  "lint-staged": {
-    "*.{html,css,scss}": ["prettier --write", "git add"]
   }
 }
