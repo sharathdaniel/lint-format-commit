@@ -1,5 +1,5 @@
 {
-  "name": "prettest",
+  "name": "autoformat",
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
@@ -16,8 +16,6 @@
     "prettier": "2.2.1"
   },
   "lint-staged": {
-    "*.{html,css,scss}":[
-      "prettier --write"
-    ]
+    "*.{html}, _assets/styles/**/*.css" : "prettier --write"
   }
 }
