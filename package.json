@@ -16,6 +16,7 @@
     "prettier": "2.2.1"
   },
   "lint-staged": {
-    "*.{html}, _assets/styles/**/*.css" : "prettier --write"
+    "*.html" : "prettier --write",
+    "_assets/styles/**/*.css" : "prettier --write"
   }
 }
