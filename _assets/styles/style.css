@@ -1,5 +1,4 @@
 .test {
   color: #000;
-  width: calc(100px - 20px);
   font-size: 11px !important;
 }
