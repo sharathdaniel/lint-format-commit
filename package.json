@@ -18,6 +18,9 @@
   },
   "lint-staged": {
     "*.html": "prettier --write",
-    "_assets/styles/**/*.css": ["prettier --write", "stylelint --fix"]
+    "_assets/styles/**/*.css": [
+      "prettier --write",
+      "stylelint --fix"
+    ]
   }
 }
