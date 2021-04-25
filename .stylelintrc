@@ -22,11 +22,9 @@
     "no-invalid-double-slash-comments": true,
     "length-zero-no-unit": true,
     "function-url-no-scheme-relative": true,
-    "color-hex-case": "lower",
     "function-comma-space-after": "always",
     "function-name-case": "lower",
     "function-url-quotes": "always",
-    "unit-case": "lower",
     "value-keyword-case": "lower"
   }
 }
