@@ -17,12 +17,9 @@
     "media-feature-name-no-unknown": true,
     "comment-no-empty": true,
     "no-duplicate-at-import-rules": true,
-    "no-duplicate-selectors": true,
-    "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
     "length-zero-no-unit": true,
     "function-url-no-scheme-relative": true,
-    "function-comma-space-after": "always",
     "function-name-case": "lower",
     "function-url-quotes": "always",
     "value-keyword-case": "lower"
