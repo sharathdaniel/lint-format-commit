@@ -20,7 +20,7 @@
     "*.html": "prettier --write",
     "_assets/styles/**/*.css": [
       "prettier --write",
-      "stylelint --fix"
+      "stylelint"
     ]
   }
 }
