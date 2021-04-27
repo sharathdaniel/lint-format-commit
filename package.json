@@ -19,8 +19,8 @@
   "lint-staged": {
     "*.html": "prettier --write",
     "_assets/styles/**/*.css": [
-      "prettier --write",
-      "stylelint"
+      "stylelint",
+      "prettier --write"
     ]
   }
 }
