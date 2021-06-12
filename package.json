@@ -17,10 +17,10 @@
     "stylelint": "^13.13.0"
   },
   "lint-staged": {
-    "*.html": "prettier --write",
     "_assets/styles/**/*.css": [
       "stylelint",
       "prettier --write"
-    ]
+    ],
+    "*.html": "prettier --write"
   }
 }
