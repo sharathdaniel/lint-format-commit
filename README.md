@@ -6,7 +6,7 @@
 
 `npx husky-init -and npm install`
 
-`npm install lint-staged --save-dev`
+`npm install --save-dev lint-staged`
 
 
 ***
