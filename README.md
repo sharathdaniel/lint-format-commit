@@ -33,9 +33,9 @@
   "src/app/\*\*/\*.html" : "prettier --write"
 }
 
-_will match all html files inside the src/app directory_
-
 _will match all scss files inside the src/scss directory_
+
+_will match all html files inside the src/app directory_
 
 **OR**
 
