@@ -4,6 +4,8 @@
 
 `npm init stylelint`
 
+======================================================
+
 Below step is only needed if using **_scss_**
 
 `npm install --save-dev stylelint stylelint-config-standard-scss`
