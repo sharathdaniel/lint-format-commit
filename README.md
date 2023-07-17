@@ -69,4 +69,4 @@ Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
 1. Linting for certain files can be excluded using **_.prettierignore.json_**
 
-2. Its better to include **_.vscode folder, stylelintrc.json, .prettierrc.json_** from this repo while using for other projects.
+2. Its better to include **_.vscode folder, .stylelintrc.json, .prettierrc.json_** from this repo while using for other projects.
