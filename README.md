@@ -12,6 +12,8 @@ Edit **_.stylelintrc.json_** with below code:
   "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"]
 }`
 
+======================================================
+
 `npx husky-init -and npm install`
 
 `npm install --save-dev lint-staged`
