@@ -16,9 +16,9 @@ Edit **_.stylelintrc.json_** with below code:
   "extends": ["stylelint-config-standard-scss"]
 }`
 
-Add necessary rules in the json from [here](https://stylelint.io/user-guide/rules)
-
 ***
+
+Add necessary rules in **_.stylelintrc.json_** from [here](https://stylelint.io/user-guide/rules)
 
 `npx husky-init -and npm install`
 
