@@ -6,7 +6,7 @@
 
 `npm install --save-dev stylelint stylelint-config-standard-scss`
 
-Edit .stylelintrc.json with below code:
+Edit **_.stylelintrc.json_** with below code:
 
 `{
   "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"]
