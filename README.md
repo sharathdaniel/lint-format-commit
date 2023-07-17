@@ -65,7 +65,7 @@ Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
 ***
 
-Run Stylelint on all the SCSS files in your project with the below code:
+Run Stylelint on all the scss files in your project with the below code:
 
 `npx stylelint "**/*.scss"`
 
