@@ -9,7 +9,7 @@
 Edit **_.stylelintrc.json_** with below code:
 
 `{
-  "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"]
+  "extends": ["stylelint-config-standard-scss"]
 }`
 
 ======================================================
