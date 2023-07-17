@@ -47,9 +47,9 @@ Inside **_package.json_**, add the below code after **devDependencies**
 }
 ```
 
-_will match all scss files inside the src/scss directory_
+will match all **_scss_** files inside the src/scss directory
 
-_will match all html files inside the src/app directory_
+will match all **_html_** files inside the src/app directory
 
 **Another example**
 
@@ -65,11 +65,11 @@ Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
 ***
 
-Run Stylelint on all the scss files in your project with the below code:
+Run Stylelint on all the **_scss_** files in your project with the below code:
 
 `npx stylelint "**/*.scss"`
 
-Problems in css files will be shown automatically in **Problems** tab in **VS Code**
+Problems in **_css_** files will be shown automatically in **Problems** tab in **VS Code**
 
 ***
 
