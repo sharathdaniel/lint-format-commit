@@ -4,7 +4,7 @@
 
 `npm init stylelint`
 
-======================================================
+***
 
 Below step is only needed if using **_scss_**
 
@@ -16,9 +16,9 @@ Edit **_.stylelintrc.json_** with below code:
   "extends": ["stylelint-config-standard-scss"]
 }`
 
-Add necessary rules from [here](https://stylelint.io/user-guide/rules)
+Add necessary rules in the json from [here](https://stylelint.io/user-guide/rules)
 
-======================================================
+***
 
 `npx husky-init -and npm install`
 
@@ -30,32 +30,32 @@ Add necessary rules from [here](https://stylelint.io/user-guide/rules)
 
 **Inside _package.json_, insert after _devDependencies_**
 
-> "lint-staged": {
-  "\*.{css,scss}" : [
-     "stylelint",
-     "prettier --write"
-  ],
-  "\*.html": "prettier --write"
-}
+``` json
+ "lint-staged": {
+    "*.{css,scss}" : ["stylelint", "prettier --write"],
+    "*.html": "prettier --write"
+  }
+```
 
 
 **Folder example**
 
-> "lint-staged": {
-  "src/scss/\*\*/\*.scss" : [
-     "stylelint",
-     "prettier --write"
-  ],
-  "src/app/\*\*/\*.html" : "prettier --write"
+``` json
+"lint-staged": {
+  "src/scss/**/*.scss" : ["stylelint", "prettier --write"],
+  "src/app/**/*.html" : "prettier --write"
 }
+```
 
 _will match all scss files inside the src/scss directory_
 
 _will match all html files inside the src/app directory_
 
-**OR**
+**also**
 
-> "src/**/*.{html,scss}" : "prettier --write"
+``` json
+"src/**/*.{html,scss}" : "prettier --write"
+```
 
 _**.prettierignore**_ file is considered when running lint staged
 
@@ -64,3 +64,5 @@ _**.prettierignore**_ file is considered when running lint staged
 **Inside _.husky/pre-commit_, add the below line**
 
 `npx lint-staged`
+
+**_Its better to include .vscode folder, stylelintrc.json, .prettierrc.json from this repo while using for other projects._**
