@@ -65,6 +65,12 @@ Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
 ***
 
+Run Stylelint on all the CSS files in your project with the below code:
+
+`npx stylelint "**/*.css"`
+
+***
+
 **Notes:**
 
 1. Linting for certain files can be excluded using **_.prettierignore.json_**
