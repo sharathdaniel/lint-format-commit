@@ -18,7 +18,7 @@ Edit **_.stylelintrc.json_** with below code:
 
 ======================================================
 
-`npx husky-init && npm install`
+`npx husky-init -and npm install`
 
 `npm install --save-dev lint-staged`
 
