@@ -2,7 +2,7 @@
 
 `npm install --save-dev --save-exact prettier`
 
-`npm install --save-dev stylelint`
+`npm init stylelint`
 
 `npx husky-init -and npm install`
 
