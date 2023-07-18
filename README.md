@@ -31,10 +31,10 @@ Replace the default value of **extends** key in **_.stylelintrc.json_** with bel
 Inside **_package.json_**, add the below code after **devDependencies**
 
 ``` json
- "lint-staged": {
-    "*.{css,scss}" : ["stylelint", "prettier --write"],
-    "*.html": "prettier --write"
-  }
+"lint-staged": {
+  "*.{css,scss}" : ["stylelint", "prettier --write"],
+  "*.html": "prettier --write"
+}
 ```
 
 
