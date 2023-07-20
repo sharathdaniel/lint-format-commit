@@ -80,7 +80,7 @@ Try to commit this file, the process will not complete as it contains invalid co
 
 ***
 
-**Notes:**
+#### Notes:
 
 1. Linting for certain files can be excluded using **_.prettierignore.json_**
 2. Installing **SonarLint** extension will give additional linting rules.
