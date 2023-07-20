@@ -67,7 +67,7 @@ Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
 ***
 
-Finally restart VS Code. Now type some invalid css code, see if the warnings are showing up in **Problems** panel. Try to commit this file, the process will not complete as it contains invalid code.
+Finally restart VS Code. Open your project and type some invalid code in css/scss file, see if the warnings are showing up in **Problems** panel. Try to commit this file, the process will not complete as it contains invalid code.
 
 ***
 
