@@ -38,7 +38,7 @@ Inside **_package.json_**, add the below code after **devDependencies**
 ```
 
 
-_Folder example
+_Folder example_
 
 ``` json
 "lint-staged": {
