@@ -4,9 +4,9 @@
 
 `npm init stylelint`
 
-Add necessary rules in **_.stylelintrc.json_** from [here](https://stylelint.io/user-guide/rules)
-
 Include **_.vscode folder, .stylelintrc.json, .prettierrc.json_** from this repo to your project.
+
+Rules specified in **_.stylelintrc.json_** are from [here](https://stylelint.io/user-guide/rules)
 
 ***
 
