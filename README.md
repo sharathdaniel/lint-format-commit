@@ -38,7 +38,7 @@ Inside **_package.json_**, add the below code after **devDependencies**
 ```
 
 
-**Folder example**
+_Folder example
 
 ``` json
 "lint-staged": {
@@ -47,11 +47,11 @@ Inside **_package.json_**, add the below code after **devDependencies**
 }
 ```
 
-will match all **_scss_** files inside the src/scss directory
+Matches all **_scss_** files inside the src/scss directory.
 
-will match all **_html_** files inside the src/app directory
+Matches all **_html_** files inside the src/app directory.
 
-**Another example**
+_Another example_
 
 ``` json
 "src/**/*.{html,scss}" : "prettier --write"
