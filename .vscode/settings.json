@@ -18,5 +18,6 @@
   "less.validate": false,
   "scss.validate": false,
   "prettier.enable": true,
-  "stylelint.enable": true
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"]
 }
