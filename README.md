@@ -6,6 +6,8 @@
 
 Add necessary rules in **_.stylelintrc.json_** from [here](https://stylelint.io/user-guide/rules)
 
+Include **_.vscode folder, .stylelintrc.json, .prettierrc.json_** from this repo to your project.
+
 ***
 
 Below step is only needed if using **_scss_**
@@ -74,6 +76,4 @@ Run Stylelint on all the **_scss_** files in your project with the below code:
 **Notes:**
 
 1. Linting for certain files can be excluded using **_.prettierignore.json_**
-
-2. Its better to include **_.vscode folder, .stylelintrc.json, .prettierrc.json_** from this repo while using for other projects.
-3. Installing **SonarLint** extension will give additional linting rules.
+2. Installing **SonarLint** extension will give additional linting rules.
