@@ -10,7 +10,7 @@ Enter the following commands in terminal:
 
 Include **_.vscode folder, .stylelintrc.json, .prettierrc.json_** from this repo to your project.
 
-Rules specified in **_.stylelintrc.json_** are from [here](https://stylelint.io/user-guide/rules)
+Rules specified in **_.stylelintrc.json_** are from [here](https://stylelint.io/user-guide/rules).
 
 ***
 
