@@ -1,3 +1,8 @@
+### A guide to setup css/scss linting, html/css/scss formatting in your project using VS Code.
+#### This setup also prevents invalid, poorly formatted code getting committed to repo.
+
+***
+
 First install [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions in VS Code.
 
 Initialize **npm** in your project if not already done by using the below command:
