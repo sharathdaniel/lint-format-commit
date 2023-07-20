@@ -22,13 +22,7 @@ Replace the default value of **extends** key in **_.stylelintrc.json_** with bel
 
 ***
 
-`npx husky-init -and npm install`
-
 `npm install --save-dev lint-staged`
-
-
-***
-
 
 Inside **_package.json_**, add the below code after **devDependencies**
 
@@ -60,6 +54,8 @@ will match all **_html_** files inside the src/app directory
 ```
 
 ***
+
+`npx husky-init -and npm install`
 
 Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
