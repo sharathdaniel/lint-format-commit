@@ -67,9 +67,7 @@ Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
 ***
 
-Run Stylelint on all the **_scss_** files in your project with the below code:
-
-`npx stylelint "**/*.scss"`
+Restart VS Code.
 
 ***
 
