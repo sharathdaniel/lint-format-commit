@@ -69,8 +69,6 @@ Run Stylelint on all the **_scss_** files in your project with the below code:
 
 `npx stylelint "**/*.scss"`
 
-Problems in **_css_** files will be shown automatically in **Problems** tab in **VS Code**
-
 ***
 
 **Notes:**
