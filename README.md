@@ -1,8 +1,10 @@
 First install [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions in VS Code.
 
-Enter the following commands in terminal:
+Initialize npm in your project if not already done by using the below command.
 
 `npm init -y`
+
+Enter the following commands in terminal:
 
 `npm install --save-dev --save-exact prettier`
 
