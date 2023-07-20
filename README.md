@@ -30,7 +30,7 @@ Replace the default value of **extends** key in **_.stylelintrc.json_** with bel
 
 `npm install --save-dev lint-staged`
 
-Inside **_package.json_**, add the below code after **devDependencies**
+Inside **_package.json_**, add the below code after **devDependencies**.
 
 ``` json
 "lint-staged": {
