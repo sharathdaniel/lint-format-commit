@@ -20,7 +20,7 @@ Below step is only needed if using **_scss_**
 
 `npm install --save-dev stylelint stylelint-config-standard-scss`
 
-Replace the default value of **extends** key in **_.stylelintrc.json_** with below code:
+Replace the default value of **extends** key in **_.stylelintrc.json_** with the below code:
 
 `{
   "extends": ["stylelint-config-standard-scss"]
