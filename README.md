@@ -83,5 +83,5 @@ Try to commit this file, the process will not complete as it contains invalid co
 #### Notes:
 
 1. Formatting for certain files can be excluded using **_.prettierignore.json_**
-2. Linting for certrain files can be exluded using **_.stylelintignore_**
+2. Linting for certrain files can be exluded using **_.stylelintignore.json_**
 3. Installing **SonarLint** extension will give additional linting rules.
