@@ -19,6 +19,8 @@ Include **_.vscode_** folder, **_.stylelintrc.json_**, **_.prettierrc.json_** fr
 
 Rules specified in **_.stylelintrc.json_** are from [here](https://stylelint.io/user-guide/rules).
 
+Configuration specified in **_.prettierrc.json_** are from [here](https://prettier.io/docs/en/options.html).
+
 ***
 
 Below step is only needed if using **_scss_**
