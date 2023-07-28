@@ -17,6 +17,8 @@ Enter the following commands in terminal:
 
 Include **_.vscode_** folder, **_.stylelintrc.json_**, **_.prettierrc.json_** from this repo to your project.
 
+Read more up on **_.vscode_** folder [here](https://bobbyhadz.com/blog/what-is-vscode-folder).
+
 Rules specified in **_.stylelintrc.json_** are from [here](https://stylelint.io/user-guide/rules).
 
 Configuration specified in **_.prettierrc.json_** are from [here](https://prettier.io/docs/en/options.html).
