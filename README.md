@@ -31,9 +31,11 @@ Below step is only needed if using **_scss_**
 
 Replace the default value of **extends** key in **_.stylelintrc.json_** with the below code:
 
-`{
+``` json
+{
   "extends": ["stylelint-config-standard-scss"]
-}`
+}
+```
 
 ***
 
