@@ -76,7 +76,9 @@ _Another example_
 
 Replace the default value inside **_.husky/pre-commit_**, with the below code:
 
-`npx lint-staged`
+```
+npx lint-staged
+```
 
 ***
 
