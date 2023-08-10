@@ -92,4 +92,4 @@ Try to commit this file, the process will not complete as it contains invalid co
 
 1. Formatting for certain files can be excluded using **_.prettierignore_**
 2. Linting for certain files can be excluded using **_.stylelintignore_**
-3. Installing **SonarLint** extension will give additional linting rules.
+3. Installing [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) extension will give additional linting rules.
