@@ -1,5 +1,5 @@
 {
-  "name": "autoformat",
+  "name": "lint-format-commit",
   "version": "1.0.0",
   "description": "`npm init -y`",
   "main": "index.js",
